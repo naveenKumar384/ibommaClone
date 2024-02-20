@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:weight@500&family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+body {
+    background: #282828;
+    overflow-x: hidden;
+}
+nav {
+    background: #2c2e30;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    height: 60px;
+    padding: 0px;
+}
+nav .logo{
+    cursor: pointer;
+}
+nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+    margin-left: 330px;
+}
+nav .nav-items a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 15px;
+}
+nav .nav-items a:hover{
+    color: rgb(195, 24, 35);
+    scale: 1.1;
+}
+nav .nav-items a i{
+    color: #368338e1;
+    padding: 5px;
+}
+nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border-radius: 30px;
+    border: 1px solid rgba(155, 155, 155, 0.2);
+}
+nav form .search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+nav form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 17px;
+    background: #368338e1;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;
+}
+nav form button:contenthover{
+    background: #4e8e52e1;
+}
+.content{
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    justify-content: space-between;
+    letter-spacing: 10px;
+    font-family: 'EB Garamond', serif;
+}
+.content p{
+    margin-top: 30px;
+}
+.content p i{
+    color: #368338e1;
+}
+.movie-items{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 1%;
+    padding: 20px;
+}
+.coloumn{
+    float: left;
+    width: 16.66%;
+    cursor: pointer;
+}
+.coloumn img{
+    border-radius: 10px;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.coloumn h5{
+    color: #fff;
+    text-size-adjust: 100px;
+}
+.coloumn p{
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.coloumn:hover{
+    scale: 1.1;
+}
+.para{
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.para h2{
+    font-family: 'Roboto Condensed', serif;
+}
+.para p{
+    margin-top: 10px;
+}
+.content p img{
+    float: left;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+.year{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+.genres {
+    font-size: 20px;
+    text-align: left;
+}
+.cast span{
+    font-weight: bold;
+    color: #fff;
+}
+.cast{
+    margin-top: 45px;
+    font-size: 15px;
+    color: rgb(202, 178, 178);
+    text-align: left;
+}
+.director span{
+    font-weight: bold;
+    color: #fff;
+}
+.director{
+    margin-top: 15px;
+    font-size: 15px;
+    color: rgb(202, 178, 178);
+    text-align: left;
+}
+.buttons{
+    margin-top: 5%;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+}
+.btn1{
+    border: 2px solid black;
+    background-color: black;
+    padding: 20px 40px 20px 40px;
+
+}
+.btn1 span{
+    margin-left: 7px;
+}
+.btn2 {
+    border: 2px solid rgb(4, 122, 14);
+    background-color: rgb(4, 122, 14);
+    padding: 16px 40px 16px 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.btn2 span{
+    margin-left: 7px;
+}
+.video{
+    padding: 40px;
+    padding-bottom: 0px;
+    margin: 40px;
+    margin-bottom: 0px;
+    border: none;
+}
+.button1{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.ser-btn1{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid rgb(12, 152, 38);
+    padding: 7px;
+    font-weight: bold;
+    background-color: rgb(12, 152, 38);
+}
+.ser-btn2{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid rgb(230, 234, 231);
+    padding: 7px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.ser-btn3{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    border: 1px solid rgb(230, 234, 231);
+    padding: 7px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.button1 :hover{
+    background-color: rgb(12, 152, 38);
+}
+.syn{
+    margin-left: 70px;
+    margin-top: 40px;
+    color: #fff;
+}
+.syn span{
+    color: rgb(8, 205, 8);
+    font-weight: bold;
+}
+#footer{
+    background-color: rgb(79, 70, 70);
+    margin-top: 20px;
+    height: 90px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.alignleft{
+    float: left;
+    padding: 30px;
+    margin-left: 40px;
+}
+.alignright{
+    float: right;
+    padding: 30px;
+    margin-right: 40px;
+}
